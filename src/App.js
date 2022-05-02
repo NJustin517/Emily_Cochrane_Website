@@ -7,6 +7,8 @@ import React, { useState, useEffect } from "react";
 import Nav from "./modules/Nav/components/Nav";
 import Home from "./modules/HomePage/components/Home";
 import AboutMe from "./modules/AboutMePage/components/AboutMe";
+import Headshots from "./modules/Headshots/Headshots";
+import ProductionPics from "./modules/ProductionPics/ProductionPics";
 
 function App() {
   return (
@@ -14,6 +16,12 @@ function App() {
       <Nav />
       <main>
         <Switch>
+          <Route path="/production_photos">
+            <ProductionPics />
+          </Route>
+          <Route path="/headshots">
+            <Headshots />
+          </Route>
           <Route path="/about">
             <AboutMe />
           </Route>

@@ -61,12 +61,12 @@ export default function Nav() {
                   aria-labelledby="offcanvasNavbarDropdown"
                 >
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/headshots">
                       Headshots
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/production_photos">
                       Production Photos
                     </a>
                   </li>
